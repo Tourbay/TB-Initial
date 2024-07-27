@@ -1,9 +1,10 @@
 import { Outlet } from "react-router";
-import { Button } from "./components/ui/button";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Outlet />
     </>
   );
